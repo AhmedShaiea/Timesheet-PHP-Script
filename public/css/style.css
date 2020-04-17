@@ -1,0 +1,195 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: Arial,"Segoe UI",sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+.container {
+    width: 100%;
+    padding: 0;
+}
+
+.navbar-fixed-top .navbar-collapse {
+    max-height: 840px;
+}
+
+nav#myNavbar > div.container a {
+    color: #636b6f;
+    font-weight: 600;
+    text-shadow: 0px 1px #FFF;
+}
+
+div#homeicon.active > a {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+div.loading .loading {
+    display: none;
+}
+
+th i {
+    cursor: pointer;
+}
+
+th i.fa-sort {
+    color: #ddd;
+}
+
+th i.active {
+    color: #000;
+}
+
+/* master page --  menu */
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover {
+    background-color: #e7e7e7 !important;
+}
+
+/* end of master page --  menu */
+
+/* master page --  pagination */
+ /* div.row div.master_mypagination div {
+      display:inline;
+      width: 10px;
+      margin: 2px;
+      font: 10px;
+      border: solid 1px;
+      border-radius:4px;  
+      color: #000;
+      background-color: #fff;
+      border-color: #2e6da4;
+      padding: 6px 12px;    
+      transition: background-color .1s;      
+  }*/
+
+    div.row div.master_mypagination li.noborder {
+        border: none;
+    }
+
+   div.row div.master_mypagination li:hover:not(.active):not(.noborder):not(.disabled) > a{
+       cursor:pointer;
+       /* background-color: #007fff; */
+   }
+
+   div.row div.master_mypagination li.active {
+      background-color: #337ab7;
+      color:#fff;
+   }
+
+   div.row div.master_mypagination li.disabled {
+      cursor: auto;
+      color:#ddd;
+   }
+
+/* end of master page --  pagination */
+
+/* pagination */
+ /* div.row div.mypagination div {
+      display:inline;
+      width: 10px;
+      margin: 2px;
+      font: 10px;
+      border: solid 1px;
+      border-radius:4px;
+      color: #000;
+      background-color: #fff;
+      border-color: #2e6da4;
+      padding: 6px 12px;
+      transition: background-color .1s;
+  }*/
+
+    div.row div.mypagination li.noborder {
+        border:none;
+    }
+
+   div.row div.mypagination li:hover:not(.active):not(.noborder):not(.disabled) > a{
+       cursor:pointer;
+       /* background-color: #007fff; */
+   }
+
+   div.row div.mypagination li.active {
+      background-color:#337ab7;
+      color:#fff;
+   }
+
+   div.row div.mypagination li.disabled {
+      cursor:auto;
+      color:#ddd;
+   }
+
+/* end of pagination */
+
+/* dashboard - modal */
+div.modal-content {
+    background-color: white;
+}
+
+/* end of dashboard - modal */
+
+  a.up-left-item {
+      position: absolute;
+      right: 50px;
+  }
+  
+  a.down-left-item {
+      position: absolute;
+      right: 25px;
+  }
+  
+  a.remove-left-item {
+      position: absolute;
+      right: 5px;
+  }
+  
+  input.timepicker {
+	  width: 60px !important;
+  }
